@@ -42,7 +42,7 @@ public class TwoIntegers
 				+ "The quotient is " + quot + ".";
 	}
 	public String Larger()
-	{
+	{ 
 		if(integer1 > integer2); 
 		{
 		return "The larger number is " + integer1 + ".";
