@@ -30,34 +30,52 @@ public class TwoIntegers
 	{
 		this.integer2 = integer2;
 	}
-	public String arithmetic()
+	public String Arithmetic()
 	{
 		int sum = integer1 + integer2;
 		int diff = integer1 - integer2;
 		int prod = integer1 * integer2;
 		double quot = (double) integer1 / integer2;
 		return    "The sum is " + sum + "." 
-				+ "The difference is " + diff + "." 
-				+ "The product is " + prod + "."
-				+ "The quotient is " + quot + ".";
+				+ "The difference is " + diff + ". " 
+				+ "The product is " + prod + ". "
+				+ "The quotient is " + quot + ". ";
 	}
 	public String Larger()
 	{ 
-		if(integer1 > integer2); 
+		if(integer1 > integer2)
 		{
-		return "The larger number is " + integer1 + ".";
+			return "The larger number is " + integer1 + ".";
 		}
-		else if(integer1 < integer2);
+		else if(integer1 < integer2)
 		{
-		return "The larger number is " + integer2 + ".";
+			return "The larger number is " + integer2 + ".";
 		}
-		if(integer1 == integer2);
+		else
 		{
-		return "There is no larger number";
+			return "There is no larger number";
 		}
-	
-	
-	
-	
+	}
+	public boolean isEven()
+	{
+		if(integer1 + integer2 % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean Multiple()
+	{
+		if(integer1 % integer2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}	
+	}
 }
-	
