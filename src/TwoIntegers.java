@@ -74,7 +74,7 @@ public class TwoIntegers
 			return true;
 		}
 		else
-		{
+		{ 
 			return false;
 		}	
 	}

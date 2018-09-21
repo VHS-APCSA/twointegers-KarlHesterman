@@ -18,5 +18,5 @@ public class TwoIntegersRunner
 		System.out.println(Multiple);
 	}
 
-}
+} 
  
