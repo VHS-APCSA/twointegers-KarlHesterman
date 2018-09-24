@@ -15,8 +15,8 @@ public class TwoIntegersRunner
 		boolean isEven = twoIntegers.isEven();
 		System.out.println("The sum of the two numbers is even: " + isEven);
 		boolean Multiple = twoIntegers.Multiple();
-		System.out.println(Multiple);
+		System.out.println("Integer1 is a multiple of Integer2: " + Multiple);
 	}
 
 } 
- 
+  

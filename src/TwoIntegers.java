@@ -64,7 +64,7 @@ public class TwoIntegers
 		}
 		else
 		{
-			return false;
+			return false; 
 		}
 	}
 	public boolean Multiple()
