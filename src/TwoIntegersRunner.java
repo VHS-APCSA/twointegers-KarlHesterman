@@ -17,6 +17,6 @@ public class TwoIntegersRunner
 		boolean Multiple = twoIntegers.Multiple();
 		System.out.println("Integer1 is a multiple of Integer2: " + Multiple);
 	}
-
+  
 } 
   

@@ -62,7 +62,7 @@ public class TwoIntegers
 		{
 			return true;
 		}
-		else
+		else  
 		{
 			return false; 
 		}
